@@ -5,6 +5,11 @@ authors = ["Dominic Marcuse <dominic@marcuse.us>"]
 edition = "2018"
 description = "Notify you about low battery levels"
 license = "MIT"
+homepage = "https://github.com/dmarcuse/batnotify"
+repository = "https://github.com/dmarcuse/batnotify"
+readme = "README.md"
+categories = [ "command-line-utilities" ]
+keywords = [ "battery", "notify", "notification", "daemon" ]
 
 [dependencies]
 battery = "0.7"
