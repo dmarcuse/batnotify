@@ -1,0 +1,16 @@
+[package]
+name = "batnotify"
+version = "0.1.0"
+authors = ["Dominic Marcuse <dominic@marcuse.us>"]
+edition = "2018"
+description = "Notify you about low battery levels"
+license = "MIT"
+
+[dependencies]
+battery = "0.7"
+notify-rust = "3"
+structopt = "0.3"
+
+[profile.release]
+opt-level = "z"
+lto = true
